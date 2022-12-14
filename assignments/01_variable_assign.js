@@ -22,5 +22,6 @@ var age="27 yr"
 var address="kolhapur"
 var pin_code="416 013"
 var gender="Male"
+var isMaried=true
 
-console.log(firstName, lastName, age, address, pin_code, gender )
+console.log(firstName, lastName, age, address, pin_code, gender, isMaried )
