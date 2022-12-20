@@ -2,43 +2,43 @@
 function monthOfYear(monthNumber){
     switch (monthNumber) {
         case 1:
-            console.log(`this month is Janavary`); 
+            console.log(`This month is Janavary`); 
         break;
         case 2:
-            console.log(`this month is Feburvary`); 
+            console.log(`This month is Feburvary`); 
         break;
         case 3:
-            console.log(`this month is March`); 
+            console.log(`This month is March`); 
         break;
         case 4:
-            console.log(`this month is April`); 
+            console.log(`This month is April`); 
         break;
         case 5:
-            console.log(`this month is May`); 
+            console.log(`This month is May`); 
         break;
         case 6:
-            console.log(`this month is June`); 
+            console.log(`This month is June`); 
         break;
         case 7:
-            console.log(`this month is July`); 
+            console.log(`This month is July`); 
         break;
         case 8:
-            console.log(`this month is Augest`); 
+            console.log(`This month is Augest`); 
         break;
         case 9:
-            console.log(`this month is September`); 
+            console.log(`This month is September`); 
         break;
         case 10:
-            console.log(`this month is Octomber`); 
+            console.log(`This month is Octomber`); 
         break;
         case 11:
-            console.log(`this month is Novenber`); 
+            console.log(`This month is Novenber`); 
         break;
         case 12:
-            console.log(`this month is December`); 
+            console.log(`This month is December`); 
         break;
         default:
-            console.log(`Enter valid month`);
+            console.log(`${monthNumber} : Enter valid month`);
         break;
     }
 }
