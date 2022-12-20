@@ -1,22 +1,22 @@
 console.log(`*********Voting Eligiblity**********`);
-var votingElisiblity = function (age) {
-    if (age>=18) {
-        console.log(` age ${age} : he is eligible for vote`);   
+var votingEligiblity = function(age){
+    if(age<=0 || age>120 ){
+        console.log(`Age value : ${age}, Invalid data`);
     }
-    if (age=1 && age<17) {
-        console.log(` age ${age} : he is not eligible for vote`);
+    if(age>=18 && age<=120) {
+        console.log(`your age is : ${age}, You can vote`);
     }
-    if (age<=0 || age>120) {
-        console.log(` age ${age} : invalid data`);
+    if(age<18 && age>0){
+        console.log(`your age is : ${age}, You can note vote`);
     }
 }
-votingElisiblity(45);
-votingElisiblity(17);
-votingElisiblity(8);
-votingElisiblity(20);
-votingElisiblity(-10);
-votingElisiblity(200);
-votingElisiblity(0);
+votingEligiblity(45);
+votingEligiblity(17);
+votingEligiblity(8);
+votingEligiblity(20);
+votingEligiblity(-10);
+votingEligiblity(200);
+votingEligiblity(0);
 
 
 
