@@ -27,8 +27,7 @@ votingEligibility(230);
 votingEligibility(-20);
 votingEligibility(10);
 
-
-// validating number and find even or odd 
+// validating number and find even or odd
 // combination of validating and if else
 
 function isEvenOrOdd(num) {

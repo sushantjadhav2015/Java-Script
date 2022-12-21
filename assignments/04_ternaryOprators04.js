@@ -1,12 +1,10 @@
 var compare = function (value) {
-    var comp = value ? true : false;
-    console.log(`Comparison of ${value}`, comp);
+  var comp = value ? true : false;
+  console.log(`Comparison of ${value}`, comp);
 
-//   var comp = value1 == value2 ? true : false;
-//   console.log(`Comparison of ${value1} == ${value2} `, comp);
-
-
-}
+  //   var comp = value1 == value2 ? true : false;
+  //   console.log(`Comparison of ${value1} == ${value2} `, comp);
+};
 compare(`(0=='') :`, 0, "");
 compare(`(0=='0') :`, 0 == "0");
 compare(`(0==false) :`, 0 == false);

@@ -34,4 +34,3 @@ switch (dayNumber) {
 }
 
 console.log(`After switch case statement`);
-
