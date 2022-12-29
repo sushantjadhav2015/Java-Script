@@ -59,15 +59,11 @@ while (count <= 1000) {
   count = count + 1;
 }
 
-//  print sum of cuble of number from 1 to 5
-function sum_Of_Cubes(n) {
-  var sumn = 0;
-  for (let i = 0; i <= n; i++) {
-    sumn += i ** 3;
-  }
-  return sumn;
-}
-console.log(`Sum of cube of 1 to 5 is :`, sum_Of_Cubes(5));
+
+//
+//
+//
+//
 
 // assignment que 3.1
 var s1 = "hard work always pays back";
