@@ -68,6 +68,7 @@ for (let index = 0; index < arrayNumber.length; index++) {
 }
 console.log(fiveMultiple);
 
+// to check avalibilty of number in given array use includes
 let number = arrayNumber.includes(115);
 console.log(`\n10) Number 115 is in arrayNumber: ${number}`);
 
