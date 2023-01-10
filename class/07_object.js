@@ -8,8 +8,11 @@ const person = {
     console.log("hey i can speck english");
   },
 };
+
+person.prototype = "india";
+
 console.log(typeof person);
-console.log(person);
+console.log(person, person.prototype);
 
 console.log(`1) accessing object properties using dot notation`);
 const personAge = person.age; // access object properties

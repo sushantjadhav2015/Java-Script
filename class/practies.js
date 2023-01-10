@@ -1,5 +1,7 @@
-for (let index = 0; index < 100; index++) {
-  if (index % 2 !== 0 || index % 5 == 1) {
-    console.log(index);
-  }
-}
+let string = "sushant sambhaji jadhav";
+console.log(string.lastIndexOf());
+console.log(string.startsWith("sushant"));
+
+(function () {
+    console.log(`sushant is king of india`);
+}) ();
