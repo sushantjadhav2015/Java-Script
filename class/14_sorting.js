@@ -15,7 +15,7 @@ console.log("==== sort() array of numbers=== ");
 // arrayOfNumbers.sort();
 console.log(arrayOfNumbers);
 arrayOfNumbers.sort((a, b)=>{
-   return a>b ? 1 : -1;
+   return a>b ? 1 : -1;  // ternary oprater 
 });
 console.log(arrayOfNumbers);
 // Sort the array in descending order
