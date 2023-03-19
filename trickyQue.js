@@ -147,13 +147,44 @@
 // baz()
 
 // TODO 23) what is the output of following code
-{/* <div onclick="console.log(`frist div`)">
+{
+  /* <div onclick="console.log(`frist div`)">
 <div onclick="console.log(`second div`)">
     <button onclick="console.log(`button`)">
         CLICK
     </button>
 </div>
-</div> */}
-
+</div> */
+}
 
 // TODO 24) what is the output of following code
+
+// TODO 25) log number upto 10 only
+// for (let i = 0; i <= 20; i++) {
+//   if (i <= 10) {
+//     console.log(i);
+//   }
+// }
+
+// for (let i = 0; i <= 20 && i <= 10; i++) {
+//   console.log(i);
+// }
+
+// TODO 26) reverse string
+("hello how are you");
+//  Output should be -  'you are how hello'
+
+let str = "hello how are you";
+let inArray = str.split(" ");
+let reverseArr = [];
+for (let i = inArray.length - 1; i >= 0; i--) {
+  reverseArr.push(inArray[i]);
+}
+console.log(reverseArr.join(" ")); 
+console.log(inArray); //for refrance
+
+inArray.forEach(element => {
+  
+});
+
+

@@ -28,14 +28,15 @@ while (i >= 40) {
 
 // Find first 15 odd number
 console.log(`\nFirst 15 odd number using while`);
-var s = "";
-var i = 0;
+// var s = "";
+var i = 1;
 while (i <= 30) {
-  s += i.toString();
-  i = i + 1;
-  s += ",";
+  // s += i.toString();
+  i = i + 2;
+  // s += ",";
+  console.log(i);
+
 }
-console.log(s);
 
 // Find first 10 even number
 console.log(`\nFirst 15 even number`);

@@ -5,6 +5,7 @@ class Employee {
     this.emp_dept = emp_dept;
     this.emp_salary = emp_salary;
     this.emp_company = emp_company;
+
   }
 }
 const emp_anil = new Employee(22, "Anil", "IT", 50000, "TCS");
@@ -41,6 +42,15 @@ arrayOfITOrHR.forEach((element) => {
   console.log(element);
 });
 
+console.log(`----------------------------------------------`);
+array_emps.filter((employee)=>{
+  if (employee.emp_dept=="HR"||employee.emp_dept=="IT") {
+    console.log(employee);
+  }
+})
+
+
+
 console.log(`-----employee whoes ID is grater than 50-----`);
 const arrayOfID = array_emps.filter((employee) => employee.emp_ID > 50);
 arrayOfID.forEach((element) => {
@@ -62,7 +72,7 @@ console.log(`----Find the avrage salary---`);
 const arrayOfSalary = array_emps.reduce((runningTotal, value) => {
   return runningTotal + value.emp_salary;
 }, 0);
-console.log(arrayOfSalary / array_emps.length, `INR`);
+console.log((arrayOfSalary / array_emps.length).toFixed(3), `INR`);
 
 console.log(`----Average salary for IT department----`);
 const arrayOfIT = array_emps.filter((employee) => {

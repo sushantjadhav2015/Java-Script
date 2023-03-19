@@ -23,7 +23,7 @@ for (const bank of arrayOfBank) {
     console.log(`Bank name and location :${bank.bank_name}, ${bank.location}`);
 }
 
-console.log(`\n===find the object kotak bank y using for loop ===`);
+console.log(`\n===find the object kotak bank by using for loop ===`);
 for (const bank of arrayOfBank) {
     if (bank.bank_name=="Kotak Bank") {
         console.log(`Bank details : ${bank.bank_name}, ${bank.location}, ${bank.account_no}, ${bank.ifsc}, ${bank.interest_rate}`);
